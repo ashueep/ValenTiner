@@ -7,7 +7,7 @@ import './styles/frontpage.css';
 
 export default function FrontPage() {
     const [text, setText] = useState('');
-    const sentence = "We have known each other from a long time but today I have something important to tell you...\n";
+    const sentence = "I know this is late... but this is the best I could think of when it came to proposing to you online... :) Please click\n";
     const typingSpeed = 200; // Adjust typing speed here
 
     useEffect(() => {
@@ -53,20 +53,20 @@ export default function FrontPage() {
             <div className="heart opacity-75">
                 <div className="text absolute -top-4 z-10 w-72 p-3 h-auto flex flex-col rotate-45 select-none">
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In the midst of life's tumultuous sea,
+                        Please remember, no matter what,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        Amidst chaos and uncertainty,
+                        I want you to be happy,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        I found my anchor, my guiding light,
+                        your happiness is what feeds me joy,
                     </p>
                     <p className='w-fit h-fit text-font text-center custom-color-text'>
-                        In your love, serene and bright.
+                        I hope you forgive me, I love you alot... Shrestha.
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
-                    ~ Manas
+                    ~ Ashutosh
                 </div>
             </div>
             <div className="content-ask text-white z-10 flex flex-col flex-wrap gap-6 justify-center items-center">

@@ -99,8 +99,8 @@ export default function Ask(props) {
       document.querySelector('.convey').classList.add('hidden');
       document.querySelector('.ask').classList.remove('sm:text-4xl', 'text-2xl');
       document.querySelector('.ask').classList.add('text-3xl', 'sm:text-6xl');
-      setAskText("Bye You don't deserve me .")
-      setEmojiAsk('');
+      setAskText("Oh okay...")
+      setEmojiAsk('😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭');
       document.querySelector('.No').classList.add('translate-y-56', 'sm:translate-y-[22.8rem]', 'pointer-events-none');
     }
   }
@@ -112,7 +112,7 @@ export default function Ask(props) {
     document.querySelector('.cry-animation-2').classList.add('hidden');
     document.querySelector('.accept-animation').classList.remove('hidden');
     document.querySelector('.buttons').classList.add('hidden');
-    setAskText("Yayy.. lets meet ! ")
+    setAskText("I love you more Shrestha Roy.")
     setEmojiAsk('😍');
     setYesOrNow("Yes");
   }
@@ -157,7 +157,7 @@ export default function Ask(props) {
         </div>
       </div>
       <div className="ask-convey px-4 flex flex-col flex-wrap items-center gap-3 sm:gap-7">
-        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>In a world brimming with over 3.95 billion extraordinary souls, you stand out to me as exceptionally beautiful and charming.</div>
+        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>Please dont click 'No'</div>
         <div className='ask-text w-fit h-fit flex flex-col gap-3 sm:gap-16 items-center'>
           <div
             className="ask text-2xl text-center sm:text-4xl select-none">
