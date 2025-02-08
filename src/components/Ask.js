@@ -101,6 +101,7 @@ export default function Ask(props) {
       document.querySelector('.ask').classList.add('text-3xl', 'sm:text-6xl');
       setAskText("Oh okay...")
       setEmojiAsk('😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭');
+      console.log('Someone clicked No');
       document.querySelector('.No').classList.add('translate-y-56', 'sm:translate-y-[22.8rem]', 'pointer-events-none');
     }
   }
@@ -113,6 +114,7 @@ export default function Ask(props) {
     document.querySelector('.accept-animation').classList.remove('hidden');
     document.querySelector('.buttons').classList.add('hidden');
     setAskText("I love you more Shrestha Roy.")
+    console.log('Someone clicked yes');
     setEmojiAsk('😍');
     setYesOrNow("Yes");
   }
